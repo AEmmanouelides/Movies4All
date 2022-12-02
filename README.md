@@ -8,7 +8,7 @@ help users to find information about their favourite movies.
 ## Notes
 - The platform is responsive.
 - The implementation is based on a given Wireframe design: `/resources/design/wireframe.png`
-- <a href="https://mui.com/" rel="nofollow" target='_blank'>MUI</a>library was used for styling purposes. 
+- <a href="https://mui.com/" rel="nofollow" target='_blank'>MUI</a> library was used for styling purposes. 
 - Movies are fetched into the platform by calling an endpoint using the `AXIOS` library. 
 - `SCSS` preprocessor was used for stylesheets management. 
 - Unit Tests in `Jest` were created to test react components. 
