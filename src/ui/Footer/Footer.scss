@@ -1,0 +1,34 @@
+.footer {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 0px;
+    display: block;
+}
+
+.logoFooter {
+    width: 15%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.copyright {
+    text-align: center;
+    color: white;
+    padding: 20px;
+    font-size: small;
+}
+
+.stores {
+    text-align:center;
+}
+
+.inline {
+    display: inline-flex;
+}
+
+.store {
+    display:inline-block;
+    margin: 5px 5px;
+    padding:5px;
+}

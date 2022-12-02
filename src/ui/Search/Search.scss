@@ -1,0 +1,15 @@
+.search {
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: red;
+}
+
+.inputField {
+    background-image:url('../../assets/icon/search-whitebg.svg');
+    position: left;
+    padding-left: 30px;
+    background-size: 26px;
+    background-repeat: no-repeat;
+    border-radius: 0px;
+}

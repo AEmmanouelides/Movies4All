@@ -1,0 +1,94 @@
+.pagination {
+    display: inline-block;
+    padding: 0;
+  }
+
+  .pagination .page-item {
+    display: inline-block;
+    cursor: pointer;
+    list-style: none;
+    border: white 1px solid;
+    color: white;
+    transition: all 0.2s ease;
+  }
+  .page-item.active {
+    border: white 1px solid;
+    border-radius: 50%;
+  }
+  .pagination li a {
+    color: white;
+    cursor: pointer;
+  }
+
+  .page-item.active .page-link {
+    z-index: 1;
+    color: #fff;
+    background-color: red;
+    border: none;
+    border-color: red;
+    border-radius: 50%;
+}
+
+.page-link {
+    position: relative;
+    display: block;
+    padding: .5rem .75rem;
+    margin-left: -1px;
+    line-height: 1.25;
+    color: darkred;
+    background-color: darkred;
+    border: none;
+    border-radius: 50%;
+}
+
+.pagination .page-item {
+    display: inline-block;
+    cursor: pointer;
+    list-style: none;
+    padding: 8px;
+    border: none;
+    color: white;
+    transition: all 0.2s ease;
+    border-radius: 50%;
+}
+
+.pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+
+  .center {
+    text-align: center;
+    padding-bottom: 0px;
+  }
+
+  .page-item:last-child .page-link {
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+
+.page-item:first-child .page-link {
+    margin-left: 0;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+}
+
+.store {
+    display:inline-block;
+    margin: 5px 5px;
+    padding:5px;
+}
+
+.page-arrow {
+    display: block;
+    padding: 5px 5px;
+    border-radius: 50%;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.disabled {
+    pointer-events: none;  
+}
