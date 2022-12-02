@@ -2,7 +2,7 @@
 
 Movies4All is a platform to find movies. The main objective is to
 help users to find information about their favourite movies.
-- It demonstrates a **Movies Database** including **Movie Description**.  
+- It demonstrates a **Movies Database** showing Movie's **Poster**, **Title** and **Description**.  
 - It supports **Search/Filtering** and **Pagination**.  
 
 ## Notes
